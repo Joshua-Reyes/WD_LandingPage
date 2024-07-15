@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in/Sign-up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+       .login-container {
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body>
+    <div class="login-container">
+        
+        <h1>Log-in/Sign-up</h1>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Log-in">
+        </form>
+        <p>Don't have an account? <a href="#">Sign-up</a></p>
+        <form>
+            <label for="new-username">Username:</label>
+            <input type="text" id="new-username" name="new-username"><br><br>
+            <label for="new-password">Password:</label>
+            <input type="password" id="new-password" name="new-password"><br><br>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password"><br><br>
+            <input type="submit" value="Sign-up">
+        </form> <br>
+        <button><a href="index.html">Back to Landing Page</a></button>
+    </div>
+</body>
+</html>
